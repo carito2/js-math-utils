@@ -11,7 +11,12 @@ const sumNumbers = (numberOne, numberTwo) => {
 sumNumbers(25, 2);
 
 const rest = (a,b) => {
-    console.log(`La resta de ${a} y ${b} es igual a ${a-b}`)
+    console.log(`La resta de ${a} y ${b} es igual a ${a-b}`);
 }
 
 rest(3,4);
+
+const multiplication = (a,b) => {
+    console.log(`La multiplicación de ${a} y ${b} es igual a ${a*b}`);
+}
+multiplication(10, 3);
