@@ -20,3 +20,9 @@ const multiplication = (a,b) => {
     console.log(`La multiplicación de ${a} y ${b} es igual a ${a*b}`);
 }
 multiplication(10, 3);
+
+const division = (a,b) => {
+    console.log(`La división de ${a} y ${b} es igual a ${a/b}`);
+}
+
+division(20,5);
