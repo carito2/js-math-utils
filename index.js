@@ -9,3 +9,9 @@ const sumNumbers = (numberOne, numberTwo) => {
 }
 
 sumNumbers(25, 2);
+
+const rest = (a,b) => {
+    console.log(a-b)
+}
+
+rest(3,4);
