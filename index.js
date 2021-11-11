@@ -36,3 +36,15 @@ const calculateAverage = (a,b) => {
     )
 }
 calculateAverage(20,8);
+
+const getHigherNumber = (a,b) => {
+    if (a>b) {
+        console.log(`El número mayor es ${a}`)
+        return a;
+    } else {
+        console.log(`El número mayor es ${b}`)
+        return b;
+    }
+}
+
+getHigherNumber(10,14);
