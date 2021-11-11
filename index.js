@@ -34,5 +34,5 @@ const calculateAverage = (a,b) => {
     return (
         result
     )
-
 }
+calculateAverage(20,8);
