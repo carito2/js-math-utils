@@ -4,8 +4,9 @@ const showNumber = (number) => {
 
 showNumber(25);
 
-const sumNumbers = (numberOne, numberTwo) => {
-    console.log(`La suma de ${numberOne} y ${numberTwo} es igual a ${numberOne+numberTwo}`)
+const sumNumbers = (a, b) => {
+    console.log(`La suma de ${a} y ${b} es igual a ${a+b}`);
+    return a+b;
 }
 
 sumNumbers(25, 2);
@@ -26,3 +27,12 @@ const division = (a,b) => {
 }
 
 division(20,5);
+
+const calculateAverage = (a,b) => {
+    let result = sumNumbers(a,b)/2
+    console.log(`El promedio de ${a} y ${b} es igual a ${result}`)
+    return (
+        result
+    )
+
+}
